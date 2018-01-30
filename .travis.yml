@@ -9,6 +9,9 @@ cache:
   directories:
     - $HOME/.m2
 
+install:
+  - ./src/main/bash/install-gumtree.sh
+
 script:
   - mvn clean install
 
